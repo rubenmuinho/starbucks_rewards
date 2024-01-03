@@ -1,0 +1,284 @@
+
+
+body {
+  margin:0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Estilo para el menú y el header */
+
+.button {
+  color: #f1f8f6;
+  border-radius: 50px;
+  padding: 5px 20px;
+  border: 2px solid #000;
+  text-decoration: none;
+
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 30px 5px;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+}
+
+.right-group {
+  display: flex;
+  align-items: center;
+}
+
+.left-group a,
+.right-group a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 5px;
+}
+
+.right-group a.button {
+  transition: background-color 0.5s;
+}
+
+.right-group a.button:hover {
+  background-color: #d4e9e2;
+}
+
+#join-now {
+  background-color: #000;
+  color: #fff;
+}
+
+#join-now:hover {
+  background-color: #1e3932;
+}
+
+.right-group img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.initial-header {
+  position: sticky;
+  color: #fff;
+  background-color: #008248;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#starbucks-logo {
+  width: 50px;
+  margin-right: 20px;
+}
+
+/* Estilo para los títulos */
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 50;
+}
+
+h3{
+  font-size: 25px;
+}
+
+
+
+/* Estilo para los div */
+
+
+.free-coffee{
+  height: 713px;
+  display: flex;
+  background-image: url("fondo_starbucks.png");
+}
+
+.free-coffee-inside{
+  padding: 100px 50px;
+  max-width: 400px;
+  
+}
+
+#green{
+  background-color: #008248;
+  color: #f1f8f6;
+  margin-top: 80px;
+  
+}
+
+#green:hover{
+  background-color: #1c9e63;
+  color: #ffff;
+}
+
+#star-half{
+  width: 100px;
+  
+}
+
+.getting-started {
+  text-align: center;
+}
+
+.getting-started-inside {
+  padding: 40px 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  text-align: center;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #008248;
+  color: #008248;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.get-your-favourites{
+  text-align: center;
+  background-color: #f1f8f6;
+}
+
+.container-star{
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+
+
+.customize-your-drink {
+  background-color: #d4e9e2;
+  display: flex;
+  padding: 80px;
+
+}
+
+.customize-your-drink img {
+  width: 300px;
+}
+
+.customize-center{
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.customize-text {
+
+  margin-left: 120px;
+  width: 350px;
+}
+
+.endless-options {
+  padding: 40px 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  text-align: center;
+}
+
+.endless-img{
+    margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+.cash-container{
+  overflow: auto;
+  text-align: center;
+  background-color: #f3f1e7;
+}
+
+.per-dollar{
+  display: flex;
+  background-color: #f3f1e7;
+  border-bottom: 0.25px solid #d3d3d3;
+  text-align: center;
+  align-items: start;
+}
+
+.per-dollar-subclass{
+  text-align: left;
+  padding: 60px 60px;
+  width: 400px;
+  display: flex;
+}
+
+.per-dollar-subclass img{
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.per-dollar-subclass div{
+  padding-left: 15px;
+}
+
+
+.per-dollar-title{
+  margin-left: 20px;
+  text-align: left;
+  width: 25%;
+  flex-direction: column;
+  
+}
+
+
+.background-rewards {
+  background-image: url("background-rewards.png");
+  position: relative;
+  z-index: 1;
+  padding: 32px;
+}
+
+.keep-the-rewards {
+  display: flex;
+  position: relative;
+  text-align: center;
+  background-color: #d4e9e2;
+  z-index: 2;
+}
+
+#rewards-button {
+  background-color: #008248;
+  color: #f1f8f6;
+  margin-top: 80px;
+}
+
+#rewards-button:hover {
+  background-color: #1c9e63;
+  color: #ffff;
+}
+
+.rewards-stars img{
+  width: 120px;
+}
